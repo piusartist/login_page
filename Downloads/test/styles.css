@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Tahoma;
+    background-color: #f5f5f5;
+}
+
+form {
+    margin: 50px auto;
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #666666;
+    outline: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+a {
+    width: 100%;
+}
+
+.new_account {
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgb(3, 172, 3);
+    
+}
+
+button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+   
+}
